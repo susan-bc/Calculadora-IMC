@@ -27,3 +27,92 @@ body {
   gap: 3.5rem;
 
 }
+
+#img img{
+  width: 31rem;
+}
+
+#calculator{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  color: #f8fafc;
+  background-color: #282828;
+  border-radius: 8px;
+
+}
+
+#form{
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+#title{
+
+  font-size: 2.25rem;
+  position: relative;
+
+}
+
+#title::after{
+
+  position: absolute;
+  content: ' ';
+  background-color: #16a34a;
+  width: 8rem;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px;
+
+}
+
+.input-box label{
+
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  font-weight: 500;
+
+}
+
+.input-field{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3f3f46;
+  padding: 0.3rem;
+  border-radius: 3px;
+  margin-top: 3px;
+
+}
+
+.input-field span, .input-field i{
+
+  color: #cbd5e1;
+  font-size: 1.3rem;
+  padding: 0.6rem 1 rem;
+
+}
+
+.input-field input{
+
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 1.3rem;
+  color: #f8fafc;
+  padding: 0rem 0.5rem;
+
+}
+
+.input-field input::-webkit-outer-spin-button, .input-field::-webkit-inner-spin-button{
+
+  appearance: none;
+
+}
